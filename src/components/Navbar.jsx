@@ -16,7 +16,19 @@ const navItems = [
 
 export const Navbar = () => {
     const [isScrolled, setIsScrolled] = useState(false);
-    const [isMenuOpen, setIsMenuOpen] = useState(true);
+    const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+    useEffect(() => {
+    if (isMenuOpen) {
+        document.body.style.overflow = 'hidden';
+    } else {
+        document.body.style.overflow = 'auto';
+    }
+
+  return () => {
+    document.body.style.overflow = 'auto';
+  };
+}, [isMenuOpen]);
 
 useEffect(() => {
     const handleScroll = () => {
@@ -63,7 +75,7 @@ useEffect(() => {
           {isMenuOpen ? <X size={24} /> : <Menu size={24} />}{" "}
         </button>
 
-            <div className={cn("fixed inset-0 bg-background/95 backdrop-blur-md z-40 flex flex-col items-center justify-center",
+            <div className={cn("fixed inset-0 h-screen bg-[#F6E7C7]/88 backdrop-blur-md z-40 flex flex-col items-center justify-center",
             "transition-all duration-300 md:hidden",
             isMenuOpen ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
             )}

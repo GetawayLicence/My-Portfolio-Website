@@ -305,6 +305,73 @@
   color: #F87171
 }
 
+@media (max-width: 640px) {
+
+    .gradient-border {
+    margin-top: 4rem;           
+    padding: 1.5rem;           
+  }
+
+  .gradient-border h4 {
+    font-size: 1rem;            
+  }
+
+  .gradient-border p {
+    font-size: 0.85rem;        
+  }
+
+  .bg-\[\#FAF3E0\] {            
+    padding: 0.4rem !important;  
+  }
+
+  .nav {
+    font-size: 2rem;            
+  }
+
+  .carousel {
+    width: 18rem;          
+    height: 20rem;        
+  }
+
+  .card {
+    padding: 1.2rem;        
+    border-radius: 0.75rem;
+  }
+
+  .card h2 {
+    font-size: 1.2rem;      
+  }
+
+  .subtitle {
+    font-size: 0.95rem;
+  }
+
+  .date {
+    font-size: 0.85rem;
+  }
+
+  .skills {
+    font-size: 0.75rem;     
+    margin-bottom: 1rem;
+  }
+
+  .view-button {
+    font-size: 0.75rem;     
+    padding: 0.4rem 0.8rem;
+  }
+
+  .nav {
+    font-size: 2rem;       
+  }
+
+  .nav.left {
+    left: -2.5rem;          
+  }
+
+  .nav.right {
+    right: -2.5rem;
+  }
+}
 
 
 

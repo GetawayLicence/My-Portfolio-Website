@@ -27,11 +27,11 @@ export const ExperienceSection = () => {
 
         {/* CARD 1 */}
         <div data-aos="fade-left" className="flex flex-col md:flex-row items-center md:items-start justify-end gap-8 relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-3 rounded-full border border-[#3E2723] shadow-md z-10">
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-2 md:p-3 rounded-full border border-[#3E2723] shadow-md z-10">
             <GraduationCap className="w-5 h-5 text-[#8B4513]" />
           </div>
 
-          <div className="gradient-border bg-[#FAF3E0] p-6 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:mr-auto">
+          <div className="gradient-border bg-[#FAF3E0] p-6 mt-16 md:mt-0 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:mr-auto">
             <h4 className="font-semibold text-lg text-[#3E2723]">Final Year Student</h4>
             <p className="text-sm text-[#5E4634] mb-1">Nanyang Technological University, Singapore</p>
             <p className="text-sm text-[#5E4634] leading-relaxed  text-left">• Bachelor of Computing (Hons) in Computer Science</p>
@@ -47,7 +47,7 @@ export const ExperienceSection = () => {
 
         {/* CARD 2 */}
         <div data-aos="fade-right" className="flex flex-col md:flex-row items-center md:items-start justify-start gap-8 relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-3 rounded-full border border-[#3E2723] shadow-md z-10">
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-2 md:p-3 rounded-full border border-[#3E2723] shadow-md z-10">
             <Shield className="w-5 h-5 text-[#8B4513]" />
           </div>
 
@@ -57,7 +57,7 @@ export const ExperienceSection = () => {
         </div>
 
           {/* RIGHT SIDE — CARD */}
-          <div className="gradient-border bg-[#FAF3E0] p-6 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:ml-auto">
+          <div className="gradient-border bg-[#FAF3E0] p-6 mt-16 md:mt-0 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:ml-auto">
             <h4 className="font-semibold text-lg text-[#3E2723]">OT Security Engineer Intern</h4>
             <p className="text-sm text-[#5E4634] mb-1">PSA International, Singapore </p>
             <p className="text-sm text-[#5E4634] leading-relaxed text-left">
@@ -74,11 +74,11 @@ export const ExperienceSection = () => {
 
         {/* CARD 3 */}
         <div data-aos="fade-left" className="flex flex-col md:flex-row items-center md:items-start justify-end gap-8 relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-3 rounded-full border border-[#3E2723] shadow-md z-10">
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-2 md:p-3 rounded-full border border-[#3E2723] shadow-md z-10">
             <Code2 className="w-5 h-5 text-[#8B4513]" />
           </div>
 
-          <div className="gradient-border bg-[#FAF3E0] p-6 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:mr-auto">
+          <div className="gradient-border bg-[#FAF3E0] p-6 mt-16 md:mt-0 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:mr-auto">
             <h4 className="font-semibold text-lg text-[#3E2723]">Temp Staff - Security Administration</h4>
             <p className="text-sm text-[#5E4634] mb-1">CPF Board, Singapore</p>
             <p className="text-sm text-[#5E4634] leading-relaxed  text-left">• Performed Security Administration – Raising requests and Creating accounts</p>
@@ -98,7 +98,7 @@ export const ExperienceSection = () => {
 
         {/* CARD 4 */}
         <div data-aos="fade-right" className="flex flex-col md:flex-row items-center md:items-start justify-start gap-8 relative">
-          <div className="absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-3 rounded-full border border-[#3E2723] shadow-md z-10">
+          <div className="hidden md:block absolute left-1/2 transform -translate-x-1/2 bg-[#FAF3E0] p-2 md:p-3 rounded-full border border-[#3E2723] shadow-md z-10">
             <Book className="w-5 h-5 text-[#8B4513]" />
           </div>
 
@@ -108,7 +108,7 @@ export const ExperienceSection = () => {
         </div>
 
           {/* RIGHT SIDE — CARD */}
-          <div className="gradient-border bg-[#FAF3E0] p-6 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:ml-auto">
+          <div className="gradient-border bg-[#FAF3E0] p-6 mt-16 md:mt-0 rounded-lg shadow-lg card-hover space-y-2 md:w-1/2 md:ml-auto">
             <h4 className="font-semibold text-lg text-[#3E2723]">Student</h4>
             <p className="text-sm text-[#5E4634] mb-1">Raffles Institution, Singapore </p>
             <p className="text-sm text-[#5E4634] leading-relaxed text-left">

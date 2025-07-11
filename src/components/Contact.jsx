@@ -14,8 +14,8 @@ import emailjs from "@emailjs/browser";
 export const ContactSection = () => {
   const { toast } = useToast();
   const [formData, setFormData] = useState({
-    user_name: "",
-    user_email: "",
+    name: "",
+    email: "",
     message: "",
   });
 
@@ -78,8 +78,8 @@ export const ContactSection = () => {
       clearMessage()
 
       setFormData({
-        user_name: "",
-        user_email: "",
+        name: "",
+        email: "",
         message: "",
       });
 
@@ -171,9 +171,9 @@ export const ContactSection = () => {
                 <input
                   type="text"
                   id="name"
-                  name="user_name"
+                  name="name"
                   required
-                  value={formData.user_name}
+                  value={formData.name}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="Jane Doe"
@@ -185,9 +185,9 @@ export const ContactSection = () => {
                 <input
                   type="email"
                   id="email"
-                  name="user_email"
+                  name="email"
                   required
-                  value={formData.user_email}
+                  value={formData.email}
                   onChange={handleInputChange}
                   className="w-full px-4 py-3 rounded-md border border-input bg-background focus:outline-hidden focus:ring-2 focus:ring-primary"
                   placeholder="janedoe@gmail.com"

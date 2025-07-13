@@ -27,7 +27,7 @@ export const HeroSection = () => {
               View my Work
             </a>
 
-            <a href="@/assets/res/CV.pdf" className="button" download>
+            <a href="/CV.pdf" className="button" download>
               Download my CV
             </a>
           </div>

@@ -37,6 +37,16 @@ const certifications = [
     ],
     link: "https://www.credly.com/badges/c73785dc-2e4b-44bc-bd6a-a0b467662ab4/public_url",
   },
+  {
+    title: "SummerBuild 2025 - Diamond Achievement",
+    subtitle: "Awarded by CCDS iLabs (NTU)",
+    date: "June 2025",
+    skills: [
+      "Achieved LOFA Diamond for participation in SummerBuild 2025.",
+      "Achieved for project WokeScroll.",
+    ],
+    link: "https://badgr.com/public/assertions/DplhVo89S-GE2ghIfZkB_w?identity__email=SRUTHI008%40e.ntu.edu.sg",
+  },
 ];
 
 const MAX_VISIBILITY = 2;
